@@ -40,8 +40,11 @@ INSTALLED_APPS = [
     'users',
     'reviews',
     'lists',
+    'rooms',
     'reservations',
     'conversations',
+    'core.apps.CoreConfig',
+    'django_countries',
 ]
 
 MIDDLEWARE = [
